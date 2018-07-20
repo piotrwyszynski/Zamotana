@@ -30,7 +30,7 @@ class Photos extends React.Component {
 
                     </ul>
                     <div className="col-12 " >
-                        <a href="" className="link-photos" >Więcej ...</a>
+                        {/* <a href="" className="link-photos" >Więcej ...</a> */}
 
                     </div>
 

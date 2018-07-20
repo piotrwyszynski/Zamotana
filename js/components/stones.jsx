@@ -23,9 +23,15 @@ const slides = [
     {
         id: 3,
         title: "Heliotrop",
-        description: `Heliotrop ugruntowuje i chroni duszę na wielu poziomach, wyostrza intuicję, rozwiewa zamęt umysłowy i utrzymuje negatywną energię oraz niepożądane istoty z daleka. 
+        description: `Heliotrop ugruntowuje i chroni duszę na wielu poziomach, wyostrza intuicję, rozwiewa zamęt umysłowy i utrzymuje negatywną energię oraz niepożądane istoty z daleka.
         Uczy podróżować niewidzialnie między światami i negocjować różne rzeczywistości. Jednym z jego najważniejszych zastosowań jest pomoc w zdobyciu dostępu do duchowych królestw przodków w celu uzdrowienia linii rodowej. Rozwiewa negatywne wzorce, pozwala żyć w teraźniejszości bez krępujących więzów przeszłości.`,
         src: "img/Stones/Heliotrop.jpg"
+    },
+    {
+        id: 4,
+        title: "Granat",
+        description: `Granat to kamień miłości i seksualności, zwiększa potencję, zacieśnia realcje pomiędzy kochankami, pobudza zmysły, stabilizuje uczucia i zapewnia wierność w związku.`,
+        src: "img/Stones/granat.jpg"
     },
 ]
 
