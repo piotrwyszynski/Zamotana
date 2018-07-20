@@ -33,6 +33,37 @@ const slides = [
         description: `Granat to kamień miłości i seksualności, zwiększa potencję, zacieśnia realcje pomiędzy kochankami, pobudza zmysły, stabilizuje uczucia i zapewnia wierność w związku.`,
         src: "img/Stones/granat.jpg"
     },
+    {
+        id: 5,
+        title: "Kwarc różowy",
+        description: `Kwarc różowy jest znany jako "kamień miłości", ponieważ emituje silną wibrację bezwarunkowej miłości, radości, ciepła i uzdrowienia. Wzmacnia empatię oraz wrażliwość. Pomaga wszystkim którzy znajdują się w jego otoczeniu. Jest silnym wzmacniaczem energii, budzi szczęście, romantyczne uczucia i zmysłowość a także jest jednym z najważniejszych kamieni reprezentujących żeński pierwiastek.`,
+        src: "img/Stones/Kwarc rozowy.jpg"
+    },
+    {
+        id: 6,
+        title: "Ametyst",
+        description: `Ametyst jest nazywany "Kamieniem Duszy" ponieważ ułatwia komunikację ze swoim wewnętrznym JA. Używa się go do otwierania swoich kanałów do telepatii, poznania poprzednich wcieleń, jasnosłyszenia, jasnowidzenia i komunikacji z aniołami. Przynosi emocjonalną stabilność i wewnętrzną siłę.`,
+        src: "img/Stones/Ametyst.jpg"
+    },
+    {
+        id: 7,
+        title: "Kryształ górski",
+        description: `Kryształ górski jest kamieniem dzięki, któremu możemy uzyskać dostęp do starożytnej mądrości i z powodzeniem stosować ją w obecnym świecie. Jest bardzo dobrym kamieniem do podróży astralnych, manifestacji, wróżenia, channelingu, świadomego śnienia i pracy nad realizacją marzeń. Wspomaga rozwój duchowy i jasnowidzenie.`,
+        src: "img/Stones/Krysztal Gorski.jpg"
+    },
+    {
+        id: 7,
+        title: "Zielony Awenturyn",
+        description: `Zielony Awenturyn zwany jest „Kamieniem Możliwości”. Dodaje pewności siebie, zwiększa energię oraz prawdopodobieństwo odniesienia sukcesu we wszystkich dziedzinach życia, zwiększa kreatywność, cierpliwość, przynosi spokój i daje ukojenie.`,
+        src: "img/Stones/Awenturyn.jpg"
+    },
+    {
+        id: 8,
+        title: "Larimar",
+        description: `Larimar jest potężnym kamieniem duchowym. Uśmierza, uzdrawia i uświadamia. 
+        Umożliwia spojrzenie na rzeczy z innej perspektywy. Reprezentuje spokój, czystość i miłość.`,
+        src: "img/Stones/Larmar.jpg"
+    },
 ]
 
 
@@ -65,6 +96,7 @@ class Stones extends React.Component {
                 classElem += "banner-slide--active"
             }
             return <div key={i} className={classElem}>
+
                 <div className="col-7 banner-slide-text">
                     <span className="banner-slide-title">
                         <p> {elem.title} </p>
@@ -95,6 +127,7 @@ class Stones extends React.Component {
                         <div className="col-12 banner-title" > Kamienie i minerały </div>
                         {slidesElem}
                     </div>
+
                 </div>
 
             </div>
