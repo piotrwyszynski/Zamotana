@@ -1,0 +1,40 @@
+// -------------- main info ----------//
+.main-info {
+    background-image: url(../img/bgi_zamotana2.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+    background-attachment: fixed;
+}
+
+.informaction {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    padding: 650px 0 25px 45px;
+}
+
+.main-text {
+    text-transform: none;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: .03em;
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}
+
+@media all and (max-width: 1080px) {
+    .main-text {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .main-text {
+        font-size: 20px;
+    }
+}

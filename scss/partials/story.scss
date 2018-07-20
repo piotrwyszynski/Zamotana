@@ -1,0 +1,103 @@
+//---------Story -----------------//
+.banner-photo {
+    display: flex;
+    padding: 20px;
+}
+
+.banner-story-title {
+    text-align: center;
+    font-size: 55px;
+    height: 60px;
+    padding-top: 30px;
+    overflow: visible;
+}
+
+.main-story {
+    display: block;
+    height: 1000px;
+    max-width: 100%;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 0 auto;
+    background-size: 100%;
+    padding-top: 100px;
+}
+
+@media all and (max-width: 1080px) {
+    .main-story {
+        font-size: 22px;
+        line-height: 30px;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .main-story {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+.main-story p {
+    max-width: 100%;
+    font-size: 23px;
+    text-align: left;
+}
+
+.with p {
+    text-align: right;
+    font-size: 18px
+}
+
+.with {
+    text-align: right;
+    font-size: 18px
+}
+
+@media all and (max-width: 1080px) {
+    .main-story p {}
+}
+
+@media all and (max-width: 530px) {
+    .main-story p {
+        font-size: 14px;
+    }
+}
+
+.main-story-info {
+    color: #3D1A15;
+    max-width: 70%;
+    height: 100px;
+    padding: 10px 0 0 190px;
+}
+
+@media all and (max-width: 1080px) {
+    .main-story-info {
+        padding: 30px 50px 0 40px;
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .main-story-info {
+        padding: 30px 10px 0 10px;
+    }
+}
+
+.story-img {
+    width: 20%;
+    max-height: 60%;
+    padding-left: 85px;
+    transition: transform .7s;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1080px) {
+    .story-img {
+        display: none;
+    }
+}
+
+.photo {
+    border-radius: 8px;
+}

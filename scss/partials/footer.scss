@@ -1,0 +1,44 @@
+.main-footer {
+    background-color: white;
+    padding: 30px;
+    height: 80px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {}
+
+.footer-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-right-text {
+    color: #8F8F8F;
+}
+
+.footer-images {}
+
+.footer-images-insta {
+    padding: 5px;
+}
+
+.image-icons {
+    padding: 5px;
+}
+
+.page-logo-footer {
+    color: #cecece;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px 0 0 20px;
+}
+
+.page-logo-footer strong {
+    color: #8f8f8f;
+}
