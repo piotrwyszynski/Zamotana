@@ -1,14 +1,15 @@
-# Zamota.com
+# Zamotana.com
 
-One Page Site, full RWD.
+One Page Site, RWD.
+The site was made thanks to Agata Chojnacka who gave me permission to use the brand of her store.
 
-Link:
+## Link:
 
 https://piotrwyszynski.github.io/Zamotana/
 
 Final project at CodersLab course.
 
-Tools:
+## Tools:
 
 - HTML5
 
@@ -20,7 +21,7 @@ Tools:
 
 - SCSS
 
-Screenshots:
+## Screenshots:
 
 https://github.com/piotrwyszynski/Zamotana/blob/master/sc/Stones.png
 
